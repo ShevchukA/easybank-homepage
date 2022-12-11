@@ -29,6 +29,10 @@ p {
     padding: 0;
 }
 
+button {
+    user-select: none;
+}
+
 .request-button {
     background: #31D35C;
     background-image: linear-gradient(to right, #31D35C, #2BB7DA);
@@ -40,6 +44,8 @@ p {
     padding: 14px 35px;
     text-decoration: none;
     cursor: pointer;
+    transition-duration: 0.3s;
+    -webkit-tap-highlight-color: unset;
 }
 
 .request-button:hover {
@@ -119,7 +125,7 @@ p {
 
 .main-info {
     padding-top: 150px;
-    padding-bottom: 150px;
+    padding-bottom: 200px;
     flex: 50%;
     align-content: center;
 }
